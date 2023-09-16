@@ -26,7 +26,7 @@ SECRET_KEY = os.environ.get("SECRET_KEY", "localkey2023")
 
 # SECURITY WARNING: don't run with debug turned on in production!
 # If RENDER env var is set, DEBUG is False.
-DEBUG = 'RENDER' not in os.environ.get
+DEBUG = 'RENDER' not in os.environ
 
 ALLOWED_HOSTS = []
 
